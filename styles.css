@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+div{
+    background: white;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+div:hover{
+    background: rgb(182, 182, 182);
+}
+
+.case{
+    border: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+h1 {
+    font-family: Times New Roman, serif;    
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+
+body {
+    color:black;
+    background-color:rgb(201, 201, 201);
+}
+
+button{
+    background-color: #ff9234;
+    color: white;
+    border: 0;
+    padding: .5em 1em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+button:hover{
+    background: #35d0ba;
+}
