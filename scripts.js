@@ -72,7 +72,6 @@ function verifGagne(){
     statut.innerHTML = tourJoueur()
 }
 
-if(isJouer == true){
 function recommencer(){
     joueurActif = "X"
     jeuActif = true
@@ -80,12 +79,13 @@ function recommencer(){
     statut.innerHTML = joueclic()
     document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
     return
-}}
+}
 
 function jouer(){
     isJouer = true
     joueurActif = "X"
     jeuActif = true
+    etatJeu = ["", "", "", "", "", "", "", "", ""]
     statut.innerHTML = tourJoueur()
     document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
 }
