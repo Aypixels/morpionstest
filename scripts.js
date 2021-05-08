@@ -89,4 +89,4 @@ function jouer(){
     statut.innerHTML = tourJoueur()
     document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
 }
-}
+}return
