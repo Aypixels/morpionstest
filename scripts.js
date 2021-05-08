@@ -74,7 +74,7 @@ function verifGagne(){
 
 function recommencer(){
     joueurActif = "X"
-    jeuActif = true
+    jeuActif = false
     etatJeu = ["", "", "", "", "", "", "", "", ""]
     statut.innerHTML = joueclic()
     document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
