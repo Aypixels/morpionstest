@@ -80,7 +80,7 @@ function recommencer(){
     document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
     return
 }
-if(isJouer != true){
+
 function jouer(){
     isJouer = true
     joueurActif = "X"
@@ -89,4 +89,4 @@ function jouer(){
     statut.innerHTML = tourJoueur()
     document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
 }
-}return
+
